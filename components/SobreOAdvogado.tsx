@@ -31,7 +31,7 @@ export default async function SobreOAdvogado() {
               <div className="absolute inset-0 grid place-items-center text-center p-8">
                 <div>
                   <div className="font-serif text-7xl text-accent mb-3">
-                    AC
+                    FRN
                   </div>
                   <div className="text-[11px] uppercase tracking-[0.3em] text-light-soft">
                     Foto institucional
@@ -66,17 +66,19 @@ export default async function SobreOAdvogado() {
           </p>
 
           <div className="grid grid-cols-2 gap-6 mb-8">
-            <div>
-              <div className="text-[10px] uppercase tracking-widest text-accent mb-1">
-                Credencial
+            {site.oab.primary && (
+              <div>
+                <div className="text-[10px] uppercase tracking-widest text-accent mb-1">
+                  Credencial
+                </div>
+                <div
+                  className="font-serif text-lg"
+                  style={{ color: "var(--bg-dark)" }}
+                >
+                  {site.oab.primary}
+                </div>
               </div>
-              <div
-                className="font-serif text-lg"
-                style={{ color: "var(--bg-dark)" }}
-              >
-                {site.oab.primary}
-              </div>
-            </div>
+            )}
             <div>
               <div className="text-[10px] uppercase tracking-widest text-accent mb-1">
                 Experiência
@@ -94,7 +96,7 @@ export default async function SobreOAdvogado() {
             <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
               <path d="M20.52 3.48A12 12 0 003.45 20.42L2 22l1.66-1.42a12 12 0 0016.86-17.1zM12 20a8 8 0 01-4.07-1.11l-.29-.17-3 .8.8-2.92-.18-.3A8 8 0 1112 20z" />
             </svg>
-            Falar com o Dr. Antonio
+            Falar com o advogado
           </WhatsAppCTA>
         </div>
       </div>

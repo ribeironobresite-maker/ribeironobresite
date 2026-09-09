@@ -28,7 +28,7 @@ export default async function Books() {
             className="text-sm max-w-xl mx-auto leading-relaxed"
             style={{ color: "var(--text-dark)" }}
           >
-            Obras publicadas pelo Dr. Antonio — direito, literatura e outros
+            Obras publicadas pelo advogado — direito, literatura e outros
             temas. Clique em qualquer livro para conhecer mais.
           </p>
         </div>

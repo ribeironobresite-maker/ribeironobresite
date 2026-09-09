@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Dr. Antonio C. Cardozo — Advocacia em Maricá";
+export const alt = "Ferdinando Ribeiro Nobre — Advogado";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -33,25 +33,11 @@ export default function OGImage() {
           }}
         />
 
-        {/* OAB / Localização */}
-        <div
-          style={{
-            color: "rgba(193,158,74,0.75)",
-            fontSize: 15,
-            letterSpacing: "0.28em",
-            textTransform: "uppercase",
-            marginBottom: 28,
-            display: "flex",
-          }}
-        >
-          OAB/RJ 116.110 · Maricá · RJ
-        </div>
-
         {/* Nome */}
         <div
           style={{
             color: "#f5f0e8",
-            fontSize: 68,
+            fontSize: 64,
             fontWeight: 700,
             lineHeight: 1.1,
             textAlign: "center",
@@ -59,7 +45,7 @@ export default function OGImage() {
             display: "flex",
           }}
         >
-          Dr. Antonio C. Cardozo
+          Ferdinando Ribeiro Nobre
         </div>
 
         {/* Linha dourada */}
@@ -86,7 +72,7 @@ export default function OGImage() {
           Cível · Consumidor · Trabalhista · Família
         </div>
 
-        {/* Subtítulo */}
+        {/* Contato */}
         <div
           style={{
             color: "rgba(245,240,232,0.5)",
@@ -96,21 +82,7 @@ export default function OGImage() {
             display: "flex",
           }}
         >
-          +25 anos de atuação · Atendimento direto com o advogado
-        </div>
-
-        {/* URL do site */}
-        <div
-          style={{
-            position: "absolute",
-            bottom: 44,
-            color: "rgba(245,240,232,0.35)",
-            fontSize: 14,
-            letterSpacing: "0.12em",
-            display: "flex",
-          }}
-        >
-          accardozo.adv.br
+          (21) 97002-7546
         </div>
       </div>
     ),

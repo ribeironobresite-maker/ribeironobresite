@@ -1,4 +1,5 @@
 import { getSiteSettings, buildOfficeFromSettings } from "@/lib/settings";
+import { site } from "@/lib/site";
 import WhatsAppCTA from "./WhatsAppCTA";
 
 export default async function Contato() {
@@ -34,7 +35,7 @@ export default async function Contato() {
           <div className="text-[10px] uppercase tracking-[0.3em] text-accent mb-3">
             {office.city} · {office.state}
           </div>
-          <h3 className="font-serif text-2xl mb-4">Dr. Antonio C Cardozo</h3>
+          <h3 className="font-serif text-2xl mb-4">{site.shortName}</h3>
           <div className="space-y-2 text-sm text-light-soft mb-6">
             <div>{office.address}</div>
             <div>

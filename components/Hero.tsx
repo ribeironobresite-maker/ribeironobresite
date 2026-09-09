@@ -79,8 +79,8 @@ export default async function Hero() {
             ) : (
               <div className="absolute inset-0 flex items-center justify-center p-16 lg:p-20">
                 <Image
-                  src="/images/logo.jpeg"
-                  alt="Antonio C Cardozo · Advocacia"
+                  src="/images/logo.png"
+                  alt="Ferdinando Ribeiro Nobre · Advocacia"
                   width={260}
                   height={260}
                   priority

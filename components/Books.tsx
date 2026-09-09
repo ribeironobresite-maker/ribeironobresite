@@ -15,21 +15,21 @@ export default async function Books() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-12">
           <div className="text-[11px] uppercase tracking-[0.3em] text-accent mb-3">
-            Publicações
+            Na mídia
           </div>
           <h2
             className="font-serif text-3xl md:text-4xl mb-4"
             style={{ color: "var(--bg-dark)" }}
           >
-            Livros do autor
+            Matérias e publicações
           </h2>
           <div className="gold-rule w-24 mx-auto mb-3" />
           <p
             className="text-sm max-w-xl mx-auto leading-relaxed"
             style={{ color: "var(--text-dark)" }}
           >
-            Obras publicadas pelo advogado — direito, literatura e outros
-            temas. Clique em qualquer livro para conhecer mais.
+            Artigos, entrevistas e matérias com a participação do advogado.
+            Clique para acessar.
           </p>
         </div>
 

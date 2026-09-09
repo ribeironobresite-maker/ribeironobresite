@@ -3,18 +3,18 @@ export const site = {
   shortName: "Ribeiro Nobre",
   tagline: "Advocacia Cível, Consumidor, Trabalhista e Família",
   url: "https://ribeironobre.adv.br",
-  email: "",
+  email: "ferdinandonobre06@gmail.com",
   cnpj: null as string | null,
   oab: {
-    primary: "",
+    primary: "OAB/RJ 132.295",
   },
   offices: [
     {
       id: "principal",
       city: "Rio de Janeiro",
       state: "RJ",
-      address: "",
-      neighborhood: "",
+      address: "Rua do Carmo, 6, sala 507",
+      neighborhood: "Centro",
       zip: "",
       whatsapp: {
         number: "5521970027546",

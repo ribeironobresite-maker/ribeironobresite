@@ -1,33 +1,32 @@
 export const site = {
-  name: "Dr. Antonio C Cardozo",
-  shortName: "A. Cardozo",
+  name: "Ferdinando Ribeiro Nobre",
+  shortName: "Ribeiro Nobre",
   tagline: "Advocacia Cível, Consumidor, Trabalhista e Família",
-  url: "https://accardozo.adv.br",
-  email: "cardozoadvogado@hotmail.com",
+  url: "https://ribeironobre.adv.br",
+  email: "",
   cnpj: null as string | null,
   oab: {
-    primary: "OAB/RJ 116.110",
+    primary: "",
   },
-  // Estrutura mantida em array (compatibilidade com modal WhatsApp do template)
   offices: [
     {
       id: "principal",
-      city: "Maricá",
+      city: "Rio de Janeiro",
       state: "RJ",
-      address: "Rua Domício da Gama, 89, loja 3",
-      neighborhood: "Edifício Shopping Maricá · Centro",
-      zip: "24.900-815",
+      address: "",
+      neighborhood: "",
+      zip: "",
       whatsapp: {
-        number: "5521987751070",
-        display: "(21) 98775-1070",
-        href: "https://wa.me/5521987751070?text=Ol%C3%A1%2C%20gostaria%20de%20uma%20orienta%C3%A7%C3%A3o%20jur%C3%ADdica.",
+        number: "5521970027546",
+        display: "(21) 97002-7546",
+        href: "https://wa.me/5521970027546?text=Ol%C3%A1%2C%20gostaria%20de%20uma%20orienta%C3%A7%C3%A3o%20jur%C3%ADdica.",
       },
     },
   ],
   primaryWhatsapp: {
-    number: "5521987751070",
-    display: "(21) 98775-1070",
-    href: "https://wa.me/5521987751070?text=Ol%C3%A1%2C%20gostaria%20de%20uma%20orienta%C3%A7%C3%A3o%20jur%C3%ADdica.",
+    number: "5521970027546",
+    display: "(21) 97002-7546",
+    href: "https://wa.me/5521970027546?text=Ol%C3%A1%2C%20gostaria%20de%20uma%20orienta%C3%A7%C3%A3o%20jur%C3%ADdica.",
   },
   social: {
     instagram: "",

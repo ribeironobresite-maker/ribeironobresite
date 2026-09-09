@@ -27,38 +27,25 @@ const cormorant = Cormorant_Garamond({
   display: "swap",
 });
 
-const ogTitle = `${site.name} — Advocacia Cível, Consumidor, Trabalhista e Família`;
+const ogTitle = `${site.name} — Advogado`;
 const ogDescription =
-  "Advocacia solo em Maricá-RJ com mais de 25 anos de atuação em Direito Cível, do Consumidor, Trabalhista e Família. Atendimento direto com o advogado, da consulta inicial à sentença final.";
+  "Advocacia com atendimento direto ao cliente. Entre em contato para uma orientação jurídica.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: `${site.name} — Advogado em Maricá`,
-    template: `%s | ${site.name}`,
+    default: `Ribeiro Nobre — Advocacia`,
+    template: `%s | Ribeiro Nobre`,
   },
   description: ogDescription,
   keywords: [
-    "advogado Maricá",
-    "advogado Maricá RJ",
-    "advogado cível Maricá",
-    "advogado trabalhista Maricá",
-    "advogado família Maricá",
-    "advogado consumidor Maricá",
-    "direito do trabalho Maricá",
-    "direito de família Maricá",
-    "divórcio Maricá",
-    "partilha de bens",
-    "união estável",
-    "interdição judicial",
-    "rescisão trabalhista",
-    "horas extras advocacia",
-    "indenização danos morais",
-    "cobrança abusiva",
-    "negativação indevida",
-    "Dr Antonio Cardozo advogado",
-    "OAB RJ 116110",
-    "consultoria jurídica Maricá",
+    "Ferdinando Ribeiro Nobre",
+    "advogado Rio de Janeiro",
+    "advocacia cível",
+    "advogado trabalhista",
+    "advogado família",
+    "advogado consumidor",
+    "orientação jurídica RJ",
   ],
   authors: [{ name: site.name }],
   alternates: { canonical: site.url },
@@ -66,7 +53,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "pt_BR",
     url: site.url,
-    siteName: site.name,
+    siteName: "Ribeiro Nobre",
     title: ogTitle,
     description: ogDescription,
     images: [
@@ -74,7 +61,7 @@ export const metadata: Metadata = {
         url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: `${site.name} · Advocacia Cível, Consumidor, Trabalhista e Família`,
+        alt: `${site.name} · Advocacia`,
       },
     ],
   },

@@ -13,7 +13,7 @@ export const metadata = {
 
 const ERRORS: Record<string, string> = {
   invalid: "Senha incorreta. Tente novamente.",
-  config: "Configuração do admin ausente. Contate o desenvolvedor.",
+  config: "Senha incorreta ou configuração ausente. Tente novamente.",
 };
 
 export default async function LoginPage({

@@ -11,10 +11,10 @@ type Session = {
 };
 
 function getSecret(): Uint8Array {
-  const secret = process.env.SESSION_SECRET;
+  const secret = process.env.AUTH_SECRET;
   if (!secret || secret.length < 32) {
     throw new Error(
-      "SESSION_SECRET ausente ou muito curto (mínimo 32 caracteres). Configure em .env.local ou no Netlify."
+      "AUTH_SECRET ausente ou muito curto (mínimo 32 caracteres). Configure em .env.local ou no Netlify."
     );
   }
   return new TextEncoder().encode(secret);
